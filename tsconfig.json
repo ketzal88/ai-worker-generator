@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [{ "name": "next" }],
+    "paths": { "@/*": ["./*"] }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "exclude": [
+    "node_modules",
+    "App.tsx",
+    "index.tsx",
+    "index.html",
+    "types.ts",
+    "vite.config.ts",
+    "services/**",
+    "components/AutoStudio.tsx",
+    "components/BestAdsGenerator.tsx",
+    "components/BestAdsGrid.tsx",
+    "components/EcommerceStudio.tsx",
+    "components/EcommerceVideoStudio.tsx",
+    "components/Landing.tsx",
+    "components/TemplateBuilder.tsx",
+    "components/UGCFactory.tsx",
+    "components/VideoGenerator.tsx"
+  ]
+}
