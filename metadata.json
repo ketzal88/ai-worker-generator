@@ -1,0 +1,5 @@
+{
+  "name": "Banana Pro Ad Studio",
+  "description": "Herramienta profesional para generación de anuncios utilizando Gemini Banana Pro. Permite al equipo de diseño seleccionar templates y generar creatividades.",
+  "requestFramePermissions": []
+}
